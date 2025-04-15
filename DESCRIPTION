@@ -1,0 +1,30 @@
+Package: EnrichIMPC
+Title: Gene Enrichment Against IMPC Phenotypes
+Version: 0.1.0
+Authors@R: 
+    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
+Author: Hannah L Nicholls [aut, cre]
+Maintainer: Hannah Nicholls <hannahnicholls@qmul.ac.uk>
+Description: A lightweight tool for testing gene lists for phenotype
+    enrichment using IMPC data.
+Depends: R (>= 4.0)
+Imports:
+    data.table,
+    dplyr,
+    ggplot2,
+    magrittr,
+    ggpubr,
+    stats,
+    splitstackshape,
+    GeneOverlap,
+    stringr,
+    tibble
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
